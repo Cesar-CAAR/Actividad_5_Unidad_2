@@ -8,6 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './tarjeta-producto.component.css'
 })
 
+
 export class TarjetaProductoComponent {
   nombre = 'Laptop Gamer';
   precio = 25000;
