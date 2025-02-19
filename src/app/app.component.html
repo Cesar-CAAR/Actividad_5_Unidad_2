@@ -1,2 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="text-center text-warning" id="colorTitulo">{{titulo}}</h1>
+            <p class="xdd">Bienvenido, {{usuario.firstName}} {{usuario.lastName}}.</p>
+            <p class="xdd">Tienes {{usuario.edad}} años.</p>
+            <p class="xdd">Descripcion: {{usuario.descripcion}}</p>
+            <p class="xdd">{{saludar() }}</p>
+            <p class="xdd">En un año tendrás {{usuario.edad + 1}} años.</p>
+        </div>
+    </section>
+</body>
+</html>
 
 <app-tarjeta-producto></app-tarjeta-producto>

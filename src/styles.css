@@ -2,9 +2,17 @@
 
 
 h2 {
-  color: rgba(124, 8, 177, 0.605);
+  color:#00bb82;
 }
 
-p  {
-  color: red;
+.xd  {
+  color: #ff7a6d;
+}
+
+#colorTitulo {
+  color: #eddc64;
+}
+
+.xdd {
+  color: #00bb82;
 }

@@ -11,5 +11,15 @@ import { TarjetaProductoComponent } from './tarjeta-producto/tarjeta-producto.co
 
 
 export class AppComponent {
-  title = 'angular-actividad-tres';
+    titulo= 'Orgullo UTS';
+    usuario={
+    firstName: "César Andres",
+    lastName: "Alvarez Romero",
+    edad:20,
+    descripcion: "Me gusta la programación y me cuesta programar"
+  };
+
+  saludar(){
+    return `Hola, ${this.usuario.firstName} ${this.usuario.lastName} con la edad de ${this.usuario.edad} años`;
+  }
 }
