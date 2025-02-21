@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ConponentePadreComponent } from '../conponente-padre/conponente-padre.component';
+import { ConponenteHijoComponent } from '../conponente-padre/conponente-hijo/conponente-hijo.component';
 
 @Component({
   selector: 'app-tarjeta-producto',
-  imports: [RouterOutlet, TarjetaProductoComponent],
+  imports: [RouterOutlet, ConponentePadreComponent, ConponenteHijoComponent],
   templateUrl: './tarjeta-producto.component.html',
   styleUrl: './tarjeta-producto.component.css'
 })
