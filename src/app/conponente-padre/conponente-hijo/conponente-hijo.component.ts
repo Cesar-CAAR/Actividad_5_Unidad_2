@@ -10,5 +10,19 @@ import {RouterOutlet} from '@angular/router';
 
 
 export class ConponenteHijoComponent {
-  componenteHijo = 'Este texto probiene del conponente hijo';
+  private titulo = "Orgullo UTS";
+
+
+  // Metodo para mostrar el titulo en TypeScript
+  // cuando la variable es privada
+  get mostrarTitulo(): string {
+    return this.titulo;
+  }
+
+
+  // Metodo para mostrar el titulo en JavaScript
+  // cuando la variable es privada
+  getTitulo(): string {
+    return this.titulo;
+  }
 }
