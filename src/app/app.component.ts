@@ -2,10 +2,16 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TarjetaProductoComponent } from './tarjeta-producto/tarjeta-producto.component';
 import { MostrarMensajeComponent } from './mostrar-mensaje/mostrar-mensaje.component';
+import { ReplicadorComponent } from './replicador/replicador.component';
+import { SaludarComponent } from './replicador-dos/replicador-dos.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TarjetaProductoComponent , MostrarMensajeComponent],
+  imports: [RouterOutlet, 
+            TarjetaProductoComponent,
+            MostrarMensajeComponent,
+            ReplicadorComponent,
+            SaludarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
